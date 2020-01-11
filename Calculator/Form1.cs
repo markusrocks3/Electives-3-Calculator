@@ -6,10 +6,7 @@ namespace Calculator
 	public partial class Form1 : Form
 	{
 
-		Double resultValue = 0;
-		String operationPerformed = "";
-		bool isOperationPerformed = false;
-
+	
 
 		public Form1()
 		{
@@ -17,23 +14,18 @@ namespace Calculator
 		}
 
 		
-
-		private void button1_Click(object sender, EventArgs e)
-		{
-
-		}
-
-		private void button10_Click(object sender, EventArgs e)
-		{
-
-		}
-
-		private void button17_Click(object sender, EventArgs e)
-		{
-
-		}
-
 		private void textBox1_TextChanged(object sender, EventArgs e)
+		{
+
+		}
+
+	
+		private void button_Click(object sender, EventArgs e)
+		{
+			textbox_result.Text = textbox_result + "1";
+		}
+
+		private void Form1_Load(object sender, EventArgs e)
 		{
 
 		}
