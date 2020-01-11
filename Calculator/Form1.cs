@@ -17,8 +17,9 @@ namespace Calculator
 	
 		private void button_Click(object sender, EventArgs e)
 		{
-			
-			textbox_result.Text = textbox_result.Text + "1";
+			Button button=(Button)sender;
+
+			textbox_result.Text = textbox_result.Text + button.Text;
 		}
 	}
 }
