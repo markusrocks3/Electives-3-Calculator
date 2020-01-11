@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Calculator.exe" size="366512">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Calculator.exe" size="364464">
       <assemblyIdentity name="Calculator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Z5vhpQ9+E5VxB4eUoVGVzukM6w90aiUNSRF0aw9gZpA=</dsig:DigestValue>
+        <dsig:DigestValue>gNSqq9RgXGJfvDYFUFn+UXCCV8npOm9bFy6T5JkXkvE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
