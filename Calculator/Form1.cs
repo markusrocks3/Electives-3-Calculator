@@ -74,6 +74,8 @@ namespace Calculator
 				case "+":
 					textbox_result.Text=(resultValue + Double.Parse(textbox_result.Text)).ToString();
 					break;
+				case "-":
+					textbox_result.Text = (resultValue - Double.Parse(textbox_result.Text)).ToString();
 				
 
 			}
